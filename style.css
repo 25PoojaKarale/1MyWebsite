@@ -1,0 +1,21 @@
+*{
+    		margin: 0px;
+    		padding: 0px;
+    	}
+      .main{
+    		height: auto;
+    		width: 100%;
+    		float: left;
+    	}.sub-menu{
+	     display: none;
+      }.nav-item:hover .sub-menu{
+	    display: inline-block;
+      bottom-border:5px solid blue;
+     }.ul li nav-item:hover {
+      color:blue;
+    }.box1{
+      background-image: url(D:\A-to-Z-IT-hub\bootsrap\5.3\Mywebsite\images\fun-bg.jpg);
+      background-color: rgba(0, 0, 255, 0.7);
+    }.treat{
+      background-image: url(D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\images\testi-bg.jpg);
+    }

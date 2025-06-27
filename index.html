@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zende Hospital</title>
+  <link rel="icon" href="favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+   
+    <script src="https://kit.fontawesome.com/1081436453.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      .main{
+        height: auto;
+        width: 100%;
+        float: left;
+      }.nav-item:hover .sub-menu{
+      display: inline-block;
+      bottom-border:5px solid blue;
+     }.ul li nav-item:hover {
+      color:blue;
+    }.nav-link:hover{
+      color:blue;
+      font-size: 20px;
+      position: relative;
+    }.treat{
+      background-image: url(D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\testi-bg.jpg);
+    }.b:hover{
+      background-color: green;
+    }.sub-menu{
+     display: none;
+    }.box1{
+    background-image: url(D:\A-to-Z-IT-hub\bootsrap\5.3\Mywebsite\fun-bg.jpg);
+    background-color: rgba(0, 0, 255, 0.7);
+  }
+
+    </style>
+</head>
+<body>
+
+	<main class="main">
+		<hr>
+		<header class="menu">
+			<div class="container ">
+				<div class="row">
+					<div class="col-3">
+						<img src="logo.png">
+					</div>
+					<div class="col-9 mt-3">
+						<nav class="navbar navbar-expand-lg  d-flex justify-content-end  ml-5">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                         </button>
+
+                         <div class="collapse navbar-collapse" id="navbarNav">
+
+                          <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#"><b>Home</b></a>
+        </li>
+         <li class="nav-item">
+         	<a class="nav-link " href="#"><b>About Us</b></a>
+           <ul class="sub-menu">
+            <li>about us </li>
+            <li>our doctor</li>
+           
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#"><b>Services</b></a>
+          <ul class="sub-menu">
+            <li>gynecology</li>
+            <li>infertility</li>
+            <li>ivf</li>
+            <li>endoscopy</li>
+            <li>sonography</li>
+            <li>obstestrics</li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><b>Gallery</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-disabled="true"><b>FAQ'S</b></a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#"><b>Contact US</b></a>
+        </li>
+      </ul>
+                      </div>
+                     </div>
+                    </nav>
+				  </div>
+				</div>
+			</div>
+		</header>
+
+		<section class="slider">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div id="id1" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#id1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#id1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#id1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slider2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-black">
+        <h1 class="test-capitalise">we provide complete gynyac solution</h1>
+        <p>we care deeply about fertility community and would like to help you build a beautiful family,so go ahead and get to know us better.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="slider1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-black">
+        <h1>We Complete Yours Dreams</h1>
+        <p>we care deeply about fertility community and would like to help you build a beautiful family,so go ahead and get to know us better.</p>
+      </div>
+    </div>
+    
+  <button class="carousel-control-prev" type="button" data-bs-target="#id1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-primary rounded-circle" ></span>
+    <span class="visually-hidden bg-primary">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#id1" data-bs-slide="next">
+    <span class="carousel-control-next-icon  bg-primary rounded-circle"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+		<section>
+    <div class="container">
+      <div class="row">
+        <div class=" col-12 col-md-4  text-white rounded" style="border: 10px solid white; background-color: #112477;">
+          <h3 class="mt-3">Most acclaimed name in Gynecology and Obstetrics.</h3>
+          <p class="mt-5">With consultant availability 24×7 and having the best specialties,</p>
+          <button type="button" class="btn btn-light border-dark m-5 " style="align-items: center;">Read More</button>
+        </div>
+         <div class="col-12 col-md-4 text-white rounded" style="border: 10px solid white;background-color: #112477;">
+           <h2 class="mt-3">Highest IVF Success Rate In Ahmednagar</h2>
+          <p class="mt-5">Our unique modular clean lab environment, with best standards.</p>
+          <button type="button" class="btn btn-light border-dark m-5 " style="align-items: center;">Read More</button>
+         </div>
+          <div class="col-12 col-md-4 text-white rounded"style="border: 10px solid white;background-color: #112477;">
+            <h2 class="mt-3">Clinical Success Begins With The Doctors</h2>
+          <p class="mt-5">Many factors must come together to help our patients achieve a successful</p>
+          <button type="button" class="btn btn-light border-dark m-5 " style="align-items: center;">Read More</button>
+          </div>
+      </div>
+    </div>  
+    </section>
+
+		<section class="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5"><h1 class="text-center mt-5">Our Unique Services</h1></div>
+          <div class="col-12 mt-3"><img src="section-img.png" style="margin-left:45%"></div>
+          <div class="col-12 mt-3"><p style="color:gray;text-align:center;">So to make people’s dream come true, we are here and bringing best practices, <br>world class technology with best standards at our IVF center located at<br> Ahamadnagr.</p></div>
+        </div>
+      </div>
+    </section>
+		<section class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <div class="col-2">
+                <img src="gynecology-icon.png">
+              </div>
+              <div class="col-10">
+                <h3>Gynecology</h3>
+                <p class="mt-4"  style="color:gray;"> A woman goes through hundreds of<br>changes in her body in a lifetime. From<br> attaining puberty, through her...</p>
+              </div>
+            </div>
+          </div>
+           <div class="col-12 col-md-4">
+             <div class="row">
+              <div class="col-2">
+                <img src="Obstetrics.jpg">
+              </div>
+              <div class="col-10">
+                <h3>Obstetrics</h3>
+                <p class="mt-4"  style="color:gray;"> Our broad spectrum of services include<br> Preconception Counselling, High risk <br>Pregnancy Care, Reproductive<br> Medicine...</p>
+              </div>
+            </div>
+           </div>
+            <div class="col-12 col-md-4">
+              <div class="row">
+              <div class="col-2">
+                <img src="endoscpy.png">
+              </div>
+              <div class="col-10">
+                <h3>Endoscopy</h3>
+                <p class="mt-4"  style="color:gray;">Dr. Prashant Zende specialized <br>Gynecology Endoscopic Surgeon with<br> experience in performing major <br>Laparoscopic surgeries... </p>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 mt-5">
+            <div class="row">
+              <div class="col-2">
+                <img src="infertility.jpg">
+              </div>
+              <div class="col-10">
+                <h3>Infertility</h3>
+                <p class="mt-4"  style="color:gray;">It is true that both men and women<br> have an equal liklihood to suffer from<br> infertility. Due to increased work stress,<br> hectic... </p>
+              </div>
+            </div>
+          </div>
+           <div class="col-12 col-md-4 mt-5">
+             <div class="row">
+              <div class="col-2">
+                <img src="ivf.png">
+              </div>
+              <div class="col-10">
+                <h3>IVF</h3>
+                <p class="mt-4"  style="color:gray;">Unfortunately, Infertility has become a<br> main concern, not able to conceive a <br>child has tremendous </p>
+              </div>
+            </div>
+           </div>
+            <div class="col-12 col-md-4 mt-5">
+              <div class="row">
+              <div class="col-2">
+                <img src="Sonography.png">
+              </div>
+              <div class="col-10">
+                <h3>Sonography</h3>
+                <p class="mt-4"  style="color:gray;">Ultrasound involves the use of high-<br>frequency sound waves to create<br> images of organs and systems within <br>the body. </p>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+		<section >
+      <div class="container-fluid mt-5 bg-primary">
+        <div class="row">
+          <div class="col-12 mt-5 ">
+             <img src="call-bg.jpg "style="hight:100%;width: 100%;" >
+            <h3 class=" text-white text-center mt-5">Do you need Emergency Medical <br>Care? Call @ 0241 2430326</h3>
+            <p  class="text-white text-center mt-3">While the expertise of our trained doctors and highly skilled and <br>compassionate staff is very essential, a critical part of the in vitro fertilization <br>(IVF) process happens in a place that most patients never see: the IVF lab.</p>
+            <button1 type="button" class="btn btn-white bg-white " style="margin-left:40%">Contact now</button1>
+            <button2 type="button" class="btn btn-outline-primary bg-light text-black ml-5">Learn More---></button2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5"><h2 class="text-center">We have complete solution for your<br> Fertility problems</h2></div>
+          <div class="col-12 mt-3 text-center "> <img src="section-img.png" ></div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-6">
+            <h3>Who We Are</h3>
+              <p>Zende Hospital has become the most acclaimed name in gynecology and obstetrics across Maharashtra. With consultant availability 24×7 and having the best specialties, Zende Hospital has produced some amazing lifesaving results.</p>
+              <ul class="list" style="list-style-type: none;">
+                <li>
+                  <i class="fa-solid fa-square-caret-right"></i>
+                  Best educated doctors
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-caret-right"></i>
+                   All latest equipped laboratories
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-caret-right"></i>
+                  We focus on cleanliness
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-caret-right"></i>
+                  Complete gaynik solution
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-caret-right"></i>
+                  We complete you dreams
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-caret-right"></i>
+                  Solutions on infertility
+                </li>
+              </ul>
+            </div>
+          <div class="col-12 col-md-6">
+            <img src="video-bg.jpg" style="hight:100%;width: 100%;">
+            <a href="https://www.youtube.com/watch?v=RFVXy6CRVR4" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5">
+            <h1 class="text-center mt-5">We Maintain Cleanliness Rules Inside <br>Our Hospital</h1></div>
+          <div class="col-12 mt-3">
+            <img src="section-img.png" style="margin-left:45%"></div>
+          <div class="col-12 mt-3">
+            <p style="color:gray;text-align:center;">Cleanliness is the best way to prevent many diseases and illness</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid mt-5 pt-5 ">
+        <div class="row">
+          <div class=" col-12 col-md-3 mt-3">
+            <img src="pf1.jpg" style="height: 100%; width: 100%;">
+          </div>
+          <div class=" col-12 col-md-3 mt-3">
+            <img src="pf2.jpg" style="height: 100%; width: 100%;">
+          </div>
+          <div class="col-12 col-md-3 mt-3">
+            <img src="pf3.jpg" style="height: 100%; width: 100%;">
+          </div> 
+          <div class="col-12 col-md-3 mt-3">
+            <img src="pf4.jpg" style="height: 100%; width: 100%;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-info " >
+       <section class="service  mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5"><h1 class="text-center mt-5">What Our Patients Say About Our<br> Medical Treatments</h1></div>
+          <div class="col-12 mt-3"><img src="section-img.png" style="margin-left:45% "></div>
+          <div class="col-12 mt-3"><p style="color:black;text-align:center;">Cleanliness is the best way to prevent many diseases and illness</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5 ">
+        <div class="row ">
+          <div class=" col-12 col-md-4 bg-white rounded border border-success   ">
+            <p class="p-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. </p>
+          </div>
+          <div class="col-12 col-md-4 bg-white rounded border border-success  ">
+            <p class="p-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.  </p>
+          </div>
+          <div class="col-12 col-md-4  bg-white rounded border border-success  ">
+            <p class="p-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.  </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+</section>
+
+
+       <section class="service " >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 "><h1 class="text-center mt-5">Complete Treatment</h1></div>
+          <div class="col-12 mt-3"><img src="section-img.png" style="margin-left:45% "></div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+    <div class="row p-5">
+      <div class=" col-12 col-md-7">
+        <div class="row  border-white">
+          <div class="col-4  p-5 ">
+            <img src="D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\gynecology-icon.png" >
+            <h3>gynecology</h3>
+          </div>
+          <div class="col-4  p-5">
+            <img src="D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\Obstetrics.jpg">
+            <h3>Obstetrics</h3>
+          </div>
+          <div class="col-4  p-5">
+            <img src="D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\endoscpy.png">
+            <h3>Endoscopy</h3>
+          </div>
+        </div>
+      </div>
+      <div class=" col12 col-md-5">
+        <div class="row   ">
+          <div class="col-6  p-5">
+            <img src="D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\infertility.jpg">
+            <h3>Infertlity</h3>
+          </div>
+          <div class="col-6  p-5">
+            <img src="D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\Sonography.png">
+            <h3>Sonography</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+     <section class="service bg-info mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5"><h1 class="text-center mt-5">We Have Specialist Doctors To Solve <br>Your Problems</h1></div>
+          <div class="col-12 mt-3"><img src="section-img.png" style="margin-left:45%"></div>
+          <div class="col-12 mt-3"><p style="color:black;text-align:center;">The specialist is one who never makes small mistakes while moving toward the grand fallacy</p></div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-info ">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 mt-3">
+            <img src="http://zendehospital.com/img/doctor-1.jpg"  style="height: 70%; width: 50%;">
+            <h4>M.D.(Obstetrics and Gynecology)</h4>
+
+                <h3>Dr.Prashant Zende</h3>
+          </div>
+           <div class="col-6 mt-3">
+             <img src="D:\A-to-Z-IT-hub\BOOTSTRAP\5.3\Mywebsite\doctor-2.jpg" style="height: 70%; width: 50%;">
+             <h4>M.B.B.S.,D.G.O.(Merit Holder)</h4>
+
+                <h3>Dr.Manjiri Zende</h3>
+           </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="service  mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5"><h1 class="text-center mt-5">Keep up with Our Most Recent <br>Medical News.</h1></div>
+          <div class="col-12 mt-3"><img src="section-img.png" style="margin-left:45%"></div>
+          <div class="col-12 mt-3"><p style="color:black;text-align:center;">The specialist is one who never makes small mistakes while moving toward the grand fallacy</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-info">
+    <div class="container " >
+      <div class="row  ">
+        <div class=" col-12 col-md-4  text-white rounded mt-5" style="right-border: 10px solid white; ">
+          <img src="zende-hospital.jpg"  style="height: 80%; width: 100%;">
+          <button type="button" class="btn btn-primary border-dark m-5 b " style="align-items: center;">Success Story 1</button>
+        </div>
+
+         <div class="col-12 col-md-4 text-white rounded mt-5" style="right-border: 10px solid white;">
+           <img src="zende-hospital-success-story-4.jpg" style="height: 80%; width: 100%;">
+          <button type="button" class="btn btn-primary border-dark m-5 b " style="align-items: center;">Success Story 2</button>
+         </div>
+
+          <div class="col-12 col-md-4 text-white rounded mt-5">
+            <img src="zende-hospital-success-story-3.jpg" style="height: 80%; width: 100%;">
+          
+          <button type="button" class="btn btn-primary border-dark m-5 b " style="align-items: center;margin-left: 50;">Success Story 3</button>
+          </div>
+      </div>
+    </div>  
+    </section>
+
+    <section class="mt-5" style="background-color:#0F206B;color: white;">
+      <div class="container" >
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <h1>About US</h1>
+            <p>Zende Hospital has become the most acclaimed name in
+             gynecology and obstetrics across Maharashtra.</p>
+          </div>
+          <div class=" col-12 col-md-3">
+            <h1>Quick Links</h1>
+            <ul>
+              <li>Home </li>
+              <li>Gallery</li>
+              <li>About Us</li>
+              <li>Services</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3">
+            <h1>Open Hours</h1>
+            <p>Monday - Sunday8:00 AM-08:00 PM</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <h1>Address</h1>
+
+            <p >DSP Chowk, To, ST Stand Road, Tarakpur,
+              Ahmednagar, Maharashtra - 414001</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+		<footer  style="background-color:#112477;color: white;">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-white mt-3 mb-3 text-center">© Copyright 2022 | All Rights Reserved by Zende Hospital | Designed byFusion Group</h3>
+        </div>
+      </div>
+    </div>  
+    </footer>
+	</main><header></header>
+
+
+
+</body>
+</html>
